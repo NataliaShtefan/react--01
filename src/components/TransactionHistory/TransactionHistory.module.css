@@ -1,0 +1,26 @@
+.transaction {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .transaction thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .transaction th,
+  .transaction td {
+    padding: 8px;
+    border: 1px solid #0c0b0b;
+    text-transform: capitalize; 
+  }
+  
+  .line:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  .line:nth-child(even) {
+    background-color: #908989;
+  }
+  
